@@ -3292,10 +3292,17 @@ cosmiconfig@^5.0.5:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
-create-expo-app@^2.1.1:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/create-expo-app/-/create-expo-app-2.3.5.tgz#0ba461307d0209d282ef5722fdd3af966fc5d396"
-  integrity sha512-fNYsqFX4WyMZXrVjO3wypDZ7dlaHRrTFlIO0Uo2g6FJjm/UQOMCpcw5HzouCv+sUCG1X6+nZmWDC+C+JmheGkg==
+create-expo-app@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/create-expo-app/-/create-expo-app-5.0.0.tgz#2097318dfc80837f6f18fac4adba3dd6166ebc88"
+  integrity sha512-hXTDzZcSqt8lywdJMCuaBpWu8Be9Fv54EW7+2k+WokZsp0dlqi03dRIDpxWKLD0mlFnucitoatH4ne+LVdbIrg==
+  dependencies:
+    create-expo ">=5.0.1"
+
+create-expo@>=5.0.1:
+  version "5.1.9"
+  resolved "https://registry.yarnpkg.com/create-expo/-/create-expo-5.1.9.tgz#91cb2eab04ec38296c7758e1d425000c322c932d"
+  integrity sha512-Pg7UFKvpULiHy+tFa4rBlOnaPlEcGxB85LgHHXIJOkp0nK/iO04oqkjrJs1hZNnqAGIHOZi5unjsK83xkXaN5Q==
 
 create-require@^1.1.0:
   version "1.1.1"
